@@ -1,8 +1,11 @@
 package mate.academy
 
 fun greetUsers() {
-    val string = readln()
-    println("Hello, $string!")
+    while(true) {
+        val string = readln()
+        if (string == "") break
+        println("Hello, $string!")
+    }
 }
 
 fun main() {
