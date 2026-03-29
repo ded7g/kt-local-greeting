@@ -1,7 +1,8 @@
 package mate.academy
 
 fun greetUsers() {
-    // implement function
+    val string = readln()
+    println("Hello, $string!")
 }
 
 fun main() {
